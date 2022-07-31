@@ -1,0 +1,43 @@
+.subscrible {
+    margin-left: 93px;
+}
+
+.subscrible__email {
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--white-color);
+}
+
+.subscrible__input {
+    height: 50px;
+    width: 358px;
+    margin-right: 12px;
+    padding-left: 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: var(--white-transparent);
+    background-color: var(--hero-footer-color);
+}
+
+.subscrible__container {
+    display: flex;
+}
+
+.subscrible__input::placeholder {
+    color: var(--white-transparent);
+}
+
+.subscrible__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscrible__icon {
+    margin-left: 10px;
+}

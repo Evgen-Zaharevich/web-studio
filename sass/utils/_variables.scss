@@ -1,0 +1,22 @@
+/* основно цвет текста (заголовки) #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент #2196F3 */
+/* белый цвет текста #FFFFFF */
+/* белый цвет с прозрачностью (футер)  rgba(255, 255, 255, 0.6) */
+/* основной цвет страницы  #E5E5E5 */
+/* вторичный цвет страницы #F5F4FA */
+/* фон секций герой и футер #2F303A */
+
+:root {
+  --title-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --white-transparent: rgba(255, 255, 255, 0.6);
+  --secondary-page-color: #f5f4fa;
+  --hero-footer-color: #2f303a;
+  --button-hover: #188ce8;
+  --icon-color: #afb1b8;
+
+  --work-list-gap: 30px;
+}

@@ -1,0 +1,23 @@
+.footer-contact__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-contact__link {
+    color: var(--white-transparent);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contact__link:hover,
+.footer-contact__link:focus {
+    color: var(--accent-color);
+}
+
+.footer-contact__address {
+    color: var(--white-color);
+}

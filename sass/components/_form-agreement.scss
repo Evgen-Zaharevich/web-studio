@@ -1,0 +1,49 @@
+.form-agreement {
+    display: inline-block;
+    position: relative;
+
+    margin-bottom: 30px;
+    padding-left: 36px;
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.form-agreement__input {
+    appearance: none;
+}
+
+.form-agreement__input:checked~.form-agreement__icon-check {
+    opacity: 1;
+}
+
+.form-agreement__link {
+    color: var(--accent-color);
+}
+
+.form-agreement__icon-frame {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border-radius: 2px;
+}
+
+.form-agreement__icon-check {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+    opacity: 0;
+
+    border-radius: 2px;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
