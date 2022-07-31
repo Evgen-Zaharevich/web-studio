@@ -1,31 +1,52 @@
 .subscrible {
-    margin-left: 93px;
+    
+
+    @media screen and (min-width:1200px) {
+            margin-left: 93px;
+    
+        }
 }
 
 .subscrible__email {
     display: block;
-
     margin-bottom: 20px;
 
     font-weight: 700;
     font-size: 14px;
+    text-align: center;
+
     color: var(--white-color);
+
+    
 }
 
 .subscrible__input {
+    
+
     height: 50px;
-    width: 358px;
-    margin-right: 12px;
-    padding-left: 16px;
+    width: 450px;
+    margin: auto;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     color: var(--white-transparent);
     background-color: var(--hero-footer-color);
+
+    @media screen and (min-width:1200px) {
+            display: flex;
+            width: 358px;
+            margin-right: 12px;
+            padding-left: 16px;
+    
+        }
 }
 
 .subscrible__container {
-    display: flex;
+    @media screen and (min-width:1200px) {
+            display: flex;
+    
+        }
+    
 }
 
 .subscrible__input::placeholder {

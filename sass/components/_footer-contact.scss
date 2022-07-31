@@ -1,6 +1,19 @@
-.footer-contact__item:not(:last-child) {
-    margin-bottom: 9px;
+.footer-contact__item {
+    margin-bottom: 8px;
+
+    &:last-child {
+        margin-bottom: 60px;
+    }
+
+    @media screen and (min-width:1200px) {
+            &:not(:last-child) {
+                    margin-bottom: 9px;
+                }
+        }
+    
 }
+
+
 
 .footer-contact__link {
     color: var(--white-transparent);
@@ -11,6 +24,11 @@
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (max-width:1199px) {
+            text-align: center;
+            display: block;
+        }
 }
 
 .footer-contact__link:hover,

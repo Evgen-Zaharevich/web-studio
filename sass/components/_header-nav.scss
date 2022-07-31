@@ -1,11 +1,15 @@
 .header-nav {
-    display: flex;
+    display: none;
 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 93px;
-    margin-right: 305px;
-    padding-left: 0px;
+    @media screen and (min-width:768px) {
+            display: flex;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 93px;
+            margin-right: 305px;
+            padding-left: 0px;
+    
+        }
 }
 
 .header-nav__item {

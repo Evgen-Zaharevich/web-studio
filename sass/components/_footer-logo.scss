@@ -4,5 +4,10 @@
 
     color: var(--white-color);
     text-decoration: none;
+    
+
+    @media screen and (max-width:1199px) {
+            text-align: center;
+        }
 
 }
