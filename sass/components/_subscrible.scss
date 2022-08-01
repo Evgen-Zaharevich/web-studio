@@ -1,5 +1,5 @@
 .subscrible {
-    
+    width: 100%;
 
     @media screen and (min-width:1200px) {
             margin-left: 93px;
@@ -9,7 +9,6 @@
 
 .subscrible__email {
     display: block;
-    margin-bottom: 20px;
 
     font-weight: 700;
     font-size: 14px;
@@ -24,8 +23,8 @@
     
 
     height: 50px;
-    width: 450px;
-    margin: auto;
+    width: 100%;
+    margin: 20px auto;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;

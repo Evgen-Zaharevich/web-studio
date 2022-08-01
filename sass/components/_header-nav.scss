@@ -3,6 +3,14 @@
 
     @media screen and (min-width:768px) {
             display: flex;
+            margin-left: 88px;
+            margin-right: 96px;
+            ;
+    
+        }
+
+        @media screen and (min-width:1200px) {
+            display: flex;
             margin-top: 0px;
             margin-bottom: 0px;
             margin-left: 93px;
@@ -22,8 +30,7 @@
 
 .header-nav__link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 
     color: var(--title-text-color);
 
@@ -34,6 +41,12 @@
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width:1200px) {
+            padding-top: 32px;
+            padding-bottom: 32px;
+    
+        }
 }
 
 .header-nav__link:hover,

@@ -19,15 +19,15 @@ body {
     
 
         @media screen and (min-width: 480px ) {
-            width: 480px;
+            max-width: 480px;
         }
 
         @media screen and (min-width: 768px) {
-            width: 768px;
+            max-width: 768px;
         }
 
         @media screen and (min-width: 1200px) {
-            width: 1200px;
+            max-width: 1200px;
             
         }
 }
@@ -75,24 +75,21 @@ p {
 .section {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin: 0 auto;
     outline: 1px solid blue;
 
     @media screen and (min-width: 480px) {
-            width: 480px;
-        }
+        max-width: 480px;
+    }
 
     @media screen and (min-width: 768px) {
-        width: 768px;
+        max-width: 768px;
     }
 
     @media screen and (min-width: 1200px) {
-        width: 1200px;
-    }
-
-    
-
-    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
         padding-top: 94px;
         padding-bottom: 94px;
     }
+
 }
