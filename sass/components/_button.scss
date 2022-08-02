@@ -1,6 +1,6 @@
 .button {
     display: block;
-    margin: 0 auto;
+    
 
     width: 200px;
     height: 50px;
@@ -20,10 +20,17 @@
     letter-spacing: 0.06em;
 
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 
-    @media screen and (min-width: 1200px){
+    @media screen and (max-width: 1199px) {
+            margin: 0 auto;
+        }
+}
+
+.button-hero {
+    @media screen and (min-width: 1200px) {
         width: 216px;
+        margin: 0 auto;
     }
 }
 

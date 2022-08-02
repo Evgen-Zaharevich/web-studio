@@ -17,7 +17,7 @@
   </head>
 
   <body>
-    <!--Верхняя линия-->
+    <!--header-->
 
     <header class="header">
       <div class="container header__container">
@@ -25,14 +25,14 @@
         <nav>
           <ul class="header-nav list">
             <li class="header-nav__item">
-              <a href="./index.html" class="link header-nav__link">Студия</a>
+              <a href="./index.html" class="link header-nav__link">Студія</a>
             </li>
             <li class="header-nav__item">
               <a href="./portfolio.html" class="link header-nav__link header-nav__link--active"
-                >Портфолио</a
+                >Портфоліо</a
               >
             </li>
-            <li class="header-nav__item"><a href="#" class="link header-nav__link">Контакты</a></li>
+            <li class="header-nav__item"><a href="#" class="link header-nav__link">Контакти</a></li>
           </ul>
         </nav>
 
@@ -54,6 +54,14 @@
             >
           </li>
         </ul>
+        <button class="button-menu">
+          <svg class="button-menu__open" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+          <svg class="button-menu__close" width="40" height="40">
+            <use href="./images/icons.svg#icon-close-mobile"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -88,7 +96,7 @@
 
           <ul class="card-set list">
             <li class="card">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -96,6 +104,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-1.jpg"
                     alt="ноутбук на экране которого показана главная страница сайта"
                     width="370"
@@ -103,14 +112,14 @@
                   />
                 </div>
               </div>
-              <div class="card__meta">
+              <div class="card__meta card__meta-container">
                 <h2 class="title card__title">Технокряк</h2>
                 <p class="text card__meta-text">Веб-сайт</p>
               </div>
             </li>
 
             <li class="card card-set__item">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -118,6 +127,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-2.jpg"
                     alt="два баскетболиста борятся за мяч"
                     width="370"
@@ -132,7 +142,7 @@
             </li>
 
             <li class="card card-set__item">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -140,6 +150,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-3.jpg"
                     alt="рыба с текстовым логотипом ресторана"
                     width="370"
@@ -154,7 +165,7 @@
             </li>
 
             <li class="card card-set__item">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -162,6 +173,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-4.jpg"
                     alt="наушники"
                     width="370"
@@ -176,7 +188,7 @@
             </li>
 
             <li class="card card-set__item">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -184,6 +196,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-5.jpg"
                     alt="две коробки"
                     width="370"
@@ -198,7 +211,7 @@
             </li>
 
             <li class="card card-set__item">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -206,6 +219,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-6.jpg"
                     alt="монитор комьютера на экране которого отображается главная страница сайта"
                     width="370"
@@ -220,7 +234,7 @@
             </li>
 
             <li class="card card-set__item">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -228,6 +242,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-7.jpg"
                     alt="журнал в котором показыны фото работы"
                     width="370"
@@ -242,7 +257,7 @@
             </li>
 
             <li class="card card-set__item">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -250,6 +265,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-8.jpg"
                     alt="белая лейба проэкта"
                     width="370"
@@ -264,7 +280,7 @@
             </li>
 
             <li class="card card-set__item">
-              <div class="card__img">
+              <div class="card__text-item">
                 <div class="card__container">
                   <p class="text card__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -272,6 +288,7 @@
                     или частном лице.
                   </p>
                   <img
+                    class="card-img"
                     src="./images/portfolio/portfolio-project-9.jpg"
                     alt="ноутбук на экране показана главная страница приложения"
                     width="370"

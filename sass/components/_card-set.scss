@@ -4,17 +4,32 @@
 
     margin-left: calc(-1 * var(--work-list-gap));
     margin-top: calc(-1 * var(--work-list-gap));
+
+    @media screen and (max-width:767px) {
+            margin-left: auto;
+            
+        }
 }
 
 .card {
-    flex-basis: calc(100% / 3 - var(--work-list-gap));
-
     margin-left: var(--work-list-gap);
     margin-top: var(--work-list-gap);
 
-
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (max-width:767px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    @media screen and (min-width:1200px) {
+        flex-basis: calc(100% / 3 - var(--work-list-gap));   
+    }
+
+    @media screen and (max-width:1199px) {
+            flex-basis: calc(100% / 2 - var(--work-list-gap));
+        }
 }
 
 .card:hover {
@@ -22,7 +37,7 @@
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.card__img {
+.card__text-item {
     position: relative;
     overflow: hidden;
 }
@@ -47,10 +62,12 @@
 
 .card__text {
     position: absolute;
-    width: 322px;
-    height: 168px;
     top: 290px;
     left: 24px;
+
+    width: 402px;
+    height: 100%;
+
     z-index: 1;
 
     font-size: 18px;
@@ -59,6 +76,15 @@
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width:768px) {
+            width: 306px;
+            height: 168px;
+        }
+
+    @media screen and (min-width:1200px) {
+            width: 322px;
+        }
 }
 
 .card:hover .card__text,
@@ -66,10 +92,37 @@
     transform: translateY(-227px);
 }
 
+.card-img {
+    width: 290px;
+    
+    
+
+
+    @media screen and (min-width:480px) {
+            width: 450px;
+            height: 294px;
+        }
+
+    @media screen and (min-width:768px) {
+        width: 354px;
+    }
+
+        @media screen and (min-width:1200px) {
+            width: 370px;
+        }
+
+}
+
 .card__meta {
     border: 1px solid #eeeeee;
     border-top: none;
     padding: 20px 24px;
+}
+
+.card__meta-container {
+    @media screen and (min-width:767px)and(max-width:1199px) {
+            padding-bottom: 56px;
+        }
 }
 
 .card__title {
