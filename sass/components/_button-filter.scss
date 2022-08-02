@@ -2,6 +2,11 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+
+    @media screen and (max-width:767px) {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
 }
 
 .button-filter__part {
@@ -16,6 +21,10 @@
 
     font-weight: 500;
     line-height: 1.62;
+
+    @media screen and (max-width:410px) {
+            height: 50px;
+        }
 }
 
 .button-filter__part--active {
@@ -33,4 +42,10 @@
 
 .button-filter__item:not(:last-child) {
     margin-right: 8px;
+    @media screen and (max-width:767px) {
+            &:nth-child(-n+3) {
+                margin-bottom: 15px;
+            }
+        }
+    
 }
