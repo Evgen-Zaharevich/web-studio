@@ -2,28 +2,26 @@
     display: none;
 
     @media screen and (min-width:768px) {
-            display: flex;
-            margin-left: 88px;
-            margin-right: 96px;
-            ;
-    
-        }
+        display: flex;
+        margin-left: 88px;
+        margin-right: 96px;
+    }
 
-        @media screen and (min-width:1200px) {
-            display: flex;
-            
-            margin-left: 93px;
-            margin-right: 305px;
-        }
+    @media screen and (min-width:1200px) {
+        display: flex;
+        
+        margin-left: 93px;
+        margin-right: 305px;
+    }
 }
 
 .header-nav__item {
     position: relative;
 
     @media screen and (min-width:768px) {
-            padding: 32px 0;
+        padding: 32px 0;
             
-        }
+    }
 }
 
 .header-nav__item:not(:last-child) {
@@ -33,7 +31,6 @@
 .header-nav__link {
     display: block;
     
-
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -62,7 +59,7 @@
 
     width: 100%;
     height: 4px;
-    border-radius: 2px;
 
+    border-radius: 2px;
     background-color: var(--accent-color);
 }
