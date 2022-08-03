@@ -1,4 +1,8 @@
 .button-menu {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+
     display: inline-flex;
 
     padding: 0;
@@ -8,19 +12,23 @@
 
     cursor: pointer;
 
-    & .button-menu__close {
-        display: none;
+    &:hover,&:focus {
+        fill: var(--accent-color);
     }
 
-    &.is-open .button-menu__close {
-        display: block;
-    }
+    // & .button-menu__close {
+    //     display: none;
+    // }
 
-    &.is-open .button-menu__menu {
-        display: none;
-    }
+    // &.is-open .button-menu__close {
+    //     display: block;
+    // }
 
-    @media screen and (min-width:768px) {
-        display: none;
-    }
+    // &.is-open .button-menu__open {
+    //     display: none;
+    // }
+
+    // @media screen and (min-width:768px) {
+    //     display: none;
+    // }
 }
