@@ -1,0 +1,25 @@
+.mobile-menu__item {
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+
+    
+}
+
+.mobile-menu__link {
+    font-size: 40px;
+    line-height: 47px;
+
+    color: var(--title-text-color);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        color: var(--accent-color);
+    }
+
+    &--active {
+        color: var(--accent-color);
+    }
+}

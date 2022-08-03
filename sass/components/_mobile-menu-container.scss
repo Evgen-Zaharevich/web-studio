@@ -9,11 +9,21 @@
    
     top: 0;
     left: 0;
+    height: 100%;
     width: 100vw;
-    height: 100vw;
-
+    z-index: 999;
+    
     font-weight: 500;
     letter-spacing: 0.02em;
 
     background-color: var(--white-color);
+
+    transform: translateX(100%);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &.is-open {
+        transform: translateX(0);
+    }
 }
