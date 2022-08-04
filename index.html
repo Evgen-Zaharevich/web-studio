@@ -182,40 +182,65 @@
           </ul>
 
           <!--Чим ми займаємося-->
+
           <div class="activity-container">
             <h2 class="title">Чим ми займаємося</h2>
             <ul class="activity list">
               <li class="activity__item">
                 <div class="activity__thumb">
                   <h3 class="title activity__title">ДЕСКТОПНІ ДОДАТКИ</h3>
-                  <img
-                    src="./images/box-1.jpg"
-                    alt="Человек печатает на клавиатуре"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        /images/benefits/1benefits1200img@1x.jpg 1x,
+                        /images/benefits/1benefits1200img@2x.jpg 2x,
+                        /images/benefits/1benefits1200img@3x.jpg 3x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      src="/images/benefits/1benefits1200img@1x.jpg"
+                      alt="людина працює за компьютером"
+                    />
+                  </picture>
                 </div>
               </li>
               <li class="activity__item">
                 <div class="activity__thumb">
                   <h3 class="title activity__title">МОБІЛЬНІ ДОДАТКИ</h3>
-                  <img
-                    src="./images/box-2.jpg"
-                    alt="Человек работает на смартфоне"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        /images/benefits/2benefits1200img@1x.jpg 1x,
+                        /images/benefits/2benefits1200img@2x.jpg 2x,
+                        /images/benefits/2benefits1200img@3x.jpg 3x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      src="/images/benefits/2benefits1200img@1x.jpg"
+                      alt="людина працює на смартфоні"
+                    />
+                  </picture>
                 </div>
               </li>
               <li class="activity__item">
                 <div class="activity__thumb">
                   <h3 class="title activity__title">ДИЗАЙНЕРСЬКІ РІШЕННЯ</h3>
-                  <img
-                    src="./images/box-3.jpg"
-                    alt="Человек работает на планшет"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        /images/benefits/3benefits1200img@1x.jpg 1x,
+                        /images/benefits/3benefits1200img@2x.jpg 2x,
+                        /images/benefits/3benefits1200img@3x.jpg 3x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      src="/images/benefits/3benefits1200img@1x.jpg"
+                      alt="людина працює на планшеті"
+                    />
+                  </picture>
                 </div>
               </li>
             </ul>
@@ -230,13 +255,40 @@
           <h2 class="title">Наша команда</h2>
           <ul class="team list">
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/team-card-1.jpg"
-                alt="Фото сотрудника"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    /images/team/1team480img@1x.jpg 1x,
+                    /images/team/1team480img@2x.jpg 2x,
+                    /images/team/1team480img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:767px)"
+                />
+                <source
+                  srcset="
+                    /images/team/1team768img@1x.jpg 1x,
+                    /images/team/1team768img@2x.jpg 2x,
+                    /images/team/1team768img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="
+                    /images/team/1team1200img@1x.jpg 1x,
+                    /images/team/1team1200img@2x.jpg 2x,
+                    /images/team/1team1200img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="team__img"
+                  src="/images/team/1team1200img@1x.jpg"
+                  alt="Фото співробітника"
+                />
+              </picture>
               <div class="team__meta">
                 <h3 class="team__title">Ігор Дем'яненко</h3>
                 <p class="team__text">Product Designer</p>
@@ -273,13 +325,40 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/team-card-2.jpg"
-                alt="Фото сотрудника"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    /images/team/2team480img@1x.jpg 1x,
+                    /images/team/2team480img@2x.jpg 2x,
+                    /images/team/2team480img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:767px)"
+                />
+                <source
+                  srcset="
+                    /images/team/2team768img@1x.jpg 1x,
+                    /images/team/2team768img@2x.jpg 2x,
+                    /images/team/2team768img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="
+                    /images/team/2team1200img@1x.jpg 1x,
+                    /images/team/2team1200img@2x.jpg 2x,
+                    /images/team/2team1200img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="team__img"
+                  src="/images/team/2team1200img@1x.jpg"
+                  alt="Фото співробітника"
+                />
+              </picture>
               <div class="team__meta">
                 <h3 class="team__title">Ольга Рєпіна</h3>
                 <p class="team__text">Frontend Developer</p>
@@ -316,13 +395,40 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/team-card-3.jpg"
-                alt="Фото сотрудника"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    /images/team/3team480img@1x.jpg 1w,
+                    /images/team/3team480img@2x.jpg 2x,
+                    /images/team/3team480img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:767px)"
+                />
+                <source
+                  srcset="
+                    /images/team/3team768img@1x.jpg 1x,
+                    /images/team/3team768img@2x.jpg 2x,
+                    /images/team/3team768img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="
+                    /images/team/3team1200img@1x.jpg 1x,
+                    /images/team/3team1200img@2x.jpg 2x,
+                    /images/team/3team1200img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="team__img"
+                  src="/images/team/3team1200img@1x.jpg"
+                  alt="Фото співробітника"
+                /> </picture
+              >>
               <div class="team__meta">
                 <h3 class="team__title">Микола Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -359,13 +465,40 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/team-card-4.jpg"
-                alt="Фото сотрудника"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    /images/team/4team480img@1x.jpg 1w,
+                    /images/team/4team480img@2x.jpg 2x,
+                    /images/team/4team480img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:767px)"
+                />
+                <source
+                  srcset="
+                    /images/team/4team768img@1x.jpg 1x,
+                    /images/team/4team768img@2x.jpg 2x,
+                    /images/team/4team768img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="
+                    /images/team/4team1200img@1x.jpg 1x,
+                    /images/team/4team1200img@2x.jpg 2x,
+                    /images/team/4team1200img@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="team__img"
+                  src="/images/team/4team1200img@1x.jpg"
+                  alt="Фото співробітника"
+                />
+              </picture>
               <div class="team__meta">
                 <h3 class="team__title">Михайло Єрмаков</h3>
                 <p class="team__text">UI Designer</p>
