@@ -1,30 +1,24 @@
 .footer-cta {
-    @media screen and (max-width:1199px) {
-        margin-bottom: 60px;
-    }
-    
-    
-    @media screen and (min-width:1200px) {
-        margin-left: 70px;
-    }
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
 }
 
 .footer-cta__title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
 
-    color: var(--white-color);
+  color: var(--white-color);
 
-    @media screen and (min-width:1200px) {
-        display: inline-block;
-    }
+  @media screen and (min-width: 1200px) {
+    display: inline-block;
+  }
 }
-
-
-
-
-
